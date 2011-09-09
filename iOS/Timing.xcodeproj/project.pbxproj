@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCAA7FB141A7BD200D79FDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCAA7FA141A7BD200D79FDC /* UIKit.framework */; };
+		3DCAA7FD141A7BD200D79FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCAA7FC141A7BD200D79FDC /* Foundation.framework */; };
+		3DCAA7FF141A7BD200D79FDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCAA7FE141A7BD200D79FDC /* CoreGraphics.framework */; };
+		3DCAA805141A7BD200D79FDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAA803141A7BD200D79FDC /* InfoPlist.strings */; };
+		3DCAA807141A7BD200D79FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAA806141A7BD200D79FDC /* main.m */; };
+		3DCAA80B141A7BD200D79FDC /* TimingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAA80A141A7BD200D79FDC /* TimingAppDelegate.m */; };
+		3DCAA80E141A7BD300D79FDC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAA80C141A7BD300D79FDC /* MainWindow.xib */; };
+		3DCAA811141A7BD300D79FDC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAA810141A7BD300D79FDC /* FirstViewController.m */; };
+		3DCAA814141A7BD300D79FDC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAA813141A7BD300D79FDC /* SecondViewController.m */; };
+		3DCAA817141A7BD300D79FDC /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAA815141A7BD300D79FDC /* FirstView.xib */; };
+		3DCAA81A141A7BD300D79FDC /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAA818141A7BD300D79FDC /* SecondView.xib */; };
+		3DCAA822141A7BD400D79FDC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCAA821141A7BD400D79FDC /* SenTestingKit.framework */; };
+		3DCAA823141A7BD400D79FDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCAA7FA141A7BD200D79FDC /* UIKit.framework */; };
+		3DCAA824141A7BD400D79FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCAA7FC141A7BD200D79FDC /* Foundation.framework */; };
+		3DCAA825141A7BD400D79FDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCAA7FE141A7BD200D79FDC /* CoreGraphics.framework */; };
+		3DCAA82D141A7BD400D79FDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAA82B141A7BD400D79FDC /* InfoPlist.strings */; };
+		3DCAA82F141A7BD400D79FDC /* TimingTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAA82E141A7BD400D79FDC /* TimingTests.h */; };
+		3DCAA831141A7BD400D79FDC /* TimingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAA830141A7BD400D79FDC /* TimingTests.m */; };
+		3DCAA83D141A7C3100D79FDC /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAA83B141A7C3100D79FDC /* MainWindow-iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DCAA826141A7BD400D79FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCAA7ED141A7BD000D79FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCAA7F5141A7BD000D79FDC;
+			remoteInfo = Timing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DCAA7F6141A7BD200D79FDC /* Timing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCAA7FA141A7BD200D79FDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DCAA7FC141A7BD200D79FDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DCAA7FE141A7BD200D79FDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DCAA802141A7BD200D79FDC /* Timing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timing-Info.plist"; sourceTree = "<group>"; };
+		3DCAA804141A7BD200D79FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DCAA806141A7BD200D79FDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DCAA808141A7BD200D79FDC /* Timing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timing-Prefix.pch"; sourceTree = "<group>"; };
+		3DCAA809141A7BD200D79FDC /* TimingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimingAppDelegate.h; sourceTree = "<group>"; };
+		3DCAA80A141A7BD200D79FDC /* TimingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimingAppDelegate.m; sourceTree = "<group>"; };
+		3DCAA80D141A7BD300D79FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3DCAA80F141A7BD300D79FDC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3DCAA810141A7BD300D79FDC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3DCAA812141A7BD300D79FDC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3DCAA813141A7BD300D79FDC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3DCAA816141A7BD300D79FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		3DCAA819141A7BD300D79FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		3DCAA820141A7BD400D79FDC /* TimingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCAA821141A7BD400D79FDC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3DCAA82A141A7BD400D79FDC /* TimingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimingTests-Info.plist"; sourceTree = "<group>"; };
+		3DCAA82C141A7BD400D79FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DCAA82E141A7BD400D79FDC /* TimingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimingTests.h; sourceTree = "<group>"; };
+		3DCAA830141A7BD400D79FDC /* TimingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimingTests.m; sourceTree = "<group>"; };
+		3DCAA83C141A7C3100D79FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCAA7F3141A7BD000D79FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAA7FB141A7BD200D79FDC /* UIKit.framework in Frameworks */,
+				3DCAA7FD141A7BD200D79FDC /* Foundation.framework in Frameworks */,
+				3DCAA7FF141A7BD200D79FDC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCAA81C141A7BD400D79FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAA822141A7BD400D79FDC /* SenTestingKit.framework in Frameworks */,
+				3DCAA823141A7BD400D79FDC /* UIKit.framework in Frameworks */,
+				3DCAA824141A7BD400D79FDC /* Foundation.framework in Frameworks */,
+				3DCAA825141A7BD400D79FDC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAA7EB141A7BCF00D79FDC = {
+			isa = PBXGroup;
+			children = (
+				3DCAA800141A7BD200D79FDC /* Timing */,
+				3DCAA828141A7BD400D79FDC /* TimingTests */,
+				3DCAA7F9141A7BD200D79FDC /* Frameworks */,
+				3DCAA7F7141A7BD200D79FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCAA7F7141A7BD200D79FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAA7F6141A7BD200D79FDC /* Timing.app */,
+				3DCAA820141A7BD400D79FDC /* TimingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAA7F9141A7BD200D79FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAA7FA141A7BD200D79FDC /* UIKit.framework */,
+				3DCAA7FC141A7BD200D79FDC /* Foundation.framework */,
+				3DCAA7FE141A7BD200D79FDC /* CoreGraphics.framework */,
+				3DCAA821141A7BD400D79FDC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAA800141A7BD200D79FDC /* Timing */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAA83A141A7C1100D79FDC /* iPad */,
+				3DCAA809141A7BD200D79FDC /* TimingAppDelegate.h */,
+				3DCAA80A141A7BD200D79FDC /* TimingAppDelegate.m */,
+				3DCAA80C141A7BD300D79FDC /* MainWindow.xib */,
+				3DCAA80F141A7BD300D79FDC /* FirstViewController.h */,
+				3DCAA810141A7BD300D79FDC /* FirstViewController.m */,
+				3DCAA812141A7BD300D79FDC /* SecondViewController.h */,
+				3DCAA813141A7BD300D79FDC /* SecondViewController.m */,
+				3DCAA815141A7BD300D79FDC /* FirstView.xib */,
+				3DCAA818141A7BD300D79FDC /* SecondView.xib */,
+				3DCAA801141A7BD200D79FDC /* Supporting Files */,
+			);
+			path = Timing;
+			sourceTree = "<group>";
+		};
+		3DCAA801141A7BD200D79FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAA802141A7BD200D79FDC /* Timing-Info.plist */,
+				3DCAA803141A7BD200D79FDC /* InfoPlist.strings */,
+				3DCAA806141A7BD200D79FDC /* main.m */,
+				3DCAA808141A7BD200D79FDC /* Timing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DCAA828141A7BD400D79FDC /* TimingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAA82E141A7BD400D79FDC /* TimingTests.h */,
+				3DCAA830141A7BD400D79FDC /* TimingTests.m */,
+				3DCAA829141A7BD400D79FDC /* Supporting Files */,
+			);
+			path = TimingTests;
+			sourceTree = "<group>";
+		};
+		3DCAA829141A7BD400D79FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAA82A141A7BD400D79FDC /* TimingTests-Info.plist */,
+				3DCAA82B141A7BD400D79FDC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DCAA83A141A7C1100D79FDC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAA83B141A7C3100D79FDC /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCAA7F5141A7BD000D79FDC /* Timing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCAA834141A7BD400D79FDC /* Build configuration list for PBXNativeTarget "Timing" */;
+			buildPhases = (
+				3DCAA7F2141A7BD000D79FDC /* Sources */,
+				3DCAA7F3141A7BD000D79FDC /* Frameworks */,
+				3DCAA7F4141A7BD000D79FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timing;
+			productName = Timing;
+			productReference = 3DCAA7F6141A7BD200D79FDC /* Timing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DCAA81F141A7BD400D79FDC /* TimingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCAA837141A7BD400D79FDC /* Build configuration list for PBXNativeTarget "TimingTests" */;
+			buildPhases = (
+				3DCAA81B141A7BD400D79FDC /* Sources */,
+				3DCAA81C141A7BD400D79FDC /* Frameworks */,
+				3DCAA81D141A7BD400D79FDC /* Resources */,
+				3DCAA81E141A7BD400D79FDC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCAA827141A7BD400D79FDC /* PBXTargetDependency */,
+			);
+			name = TimingTests;
+			productName = TimingTests;
+			productReference = 3DCAA820141A7BD400D79FDC /* TimingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCAA7ED141A7BD000D79FDC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3DCAA7F0141A7BD000D79FDC /* Build configuration list for PBXProject "Timing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DCAA7EB141A7BCF00D79FDC;
+			productRefGroup = 3DCAA7F7141A7BD200D79FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCAA7F5141A7BD000D79FDC /* Timing */,
+				3DCAA81F141A7BD400D79FDC /* TimingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCAA7F4141A7BD000D79FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAA805141A7BD200D79FDC /* InfoPlist.strings in Resources */,
+				3DCAA80E141A7BD300D79FDC /* MainWindow.xib in Resources */,
+				3DCAA817141A7BD300D79FDC /* FirstView.xib in Resources */,
+				3DCAA81A141A7BD300D79FDC /* SecondView.xib in Resources */,
+				3DCAA83D141A7C3100D79FDC /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCAA81D141A7BD400D79FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAA82D141A7BD400D79FDC /* InfoPlist.strings in Resources */,
+				3DCAA82F141A7BD400D79FDC /* TimingTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DCAA81E141A7BD400D79FDC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCAA7F2141A7BD000D79FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAA807141A7BD200D79FDC /* main.m in Sources */,
+				3DCAA80B141A7BD200D79FDC /* TimingAppDelegate.m in Sources */,
+				3DCAA811141A7BD300D79FDC /* FirstViewController.m in Sources */,
+				3DCAA814141A7BD300D79FDC /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCAA81B141A7BD400D79FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAA831141A7BD400D79FDC /* TimingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DCAA827141A7BD400D79FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCAA7F5141A7BD000D79FDC /* Timing */;
+			targetProxy = 3DCAA826141A7BD400D79FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DCAA803141A7BD200D79FDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCAA804141A7BD200D79FDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DCAA80C141A7BD300D79FDC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCAA80D141A7BD300D79FDC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3DCAA815141A7BD300D79FDC /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCAA816141A7BD300D79FDC /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		3DCAA818141A7BD300D79FDC /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCAA819141A7BD300D79FDC /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		3DCAA82B141A7BD400D79FDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCAA82C141A7BD400D79FDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DCAA83B141A7C3100D79FDC /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCAA83C141A7C3100D79FDC /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCAA832141A7BD400D79FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DCAA833141A7BD400D79FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCAA835141A7BD400D79FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timing/Timing-Prefix.pch";
+				INFOPLIST_FILE = "Timing/Timing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DCAA836141A7BD400D79FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timing/Timing-Prefix.pch";
+				INFOPLIST_FILE = "Timing/Timing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3DCAA838141A7BD400D79FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timing.app/Timing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timing/Timing-Prefix.pch";
+				INFOPLIST_FILE = "TimingTests/TimingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3DCAA839141A7BD400D79FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timing.app/Timing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timing/Timing-Prefix.pch";
+				INFOPLIST_FILE = "TimingTests/TimingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCAA7F0141A7BD000D79FDC /* Build configuration list for PBXProject "Timing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCAA832141A7BD400D79FDC /* Debug */,
+				3DCAA833141A7BD400D79FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCAA834141A7BD400D79FDC /* Build configuration list for PBXNativeTarget "Timing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCAA835141A7BD400D79FDC /* Debug */,
+				3DCAA836141A7BD400D79FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DCAA837141A7BD400D79FDC /* Build configuration list for PBXNativeTarget "TimingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCAA838141A7BD400D79FDC /* Debug */,
+				3DCAA839141A7BD400D79FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCAA7ED141A7BD000D79FDC /* Project object */;
+}
