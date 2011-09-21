@@ -16,7 +16,7 @@
 *.ear
 
 ## NetBeans ignores ##
-nbproject/private/
+Java/TaskTimer/nbproject/private/
 build/
 nbbuild/
 dist/
